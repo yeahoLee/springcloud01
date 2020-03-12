@@ -1,0 +1,3 @@
+# Project exclude paths
+/microservice01/target/
+/provider/target/
