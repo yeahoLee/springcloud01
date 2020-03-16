@@ -10,6 +10,7 @@
     <modules>
         <module>microservice01</module>
         <module>provider</module>
+        <module>consumer</module>
     </modules>
     <packaging>pom</packaging>
     <!-- spring boot 采用 2.0.7 版本 -->
