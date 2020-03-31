@@ -12,6 +12,7 @@
         <module>provider</module>
         <module>consumer</module>
         <module>microservice-cloud-05-eureka-6001</module>
+        <module>microservice-cloud-05-eureka-6002</module>
     </modules>
     <packaging>pom</packaging>
     <!-- spring boot 采用 2.0.7 版本 -->
