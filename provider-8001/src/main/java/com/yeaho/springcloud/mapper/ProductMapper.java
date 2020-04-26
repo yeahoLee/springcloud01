@@ -1,5 +1,6 @@
 package com.yeaho.springcloud.mapper;
 
+
 import com.yeaho.springcloud.entity.Product;
 import org.springframework.stereotype.Repository;
 
