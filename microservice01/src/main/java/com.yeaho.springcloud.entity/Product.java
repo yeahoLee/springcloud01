@@ -5,6 +5,12 @@ public class Product {
     private String productName;
     private String dbSource;
 
+    public Product(Long pid, String productName, String dbSource) {
+        this.pid = pid;
+        this.productName = productName;
+        this.dbSource = dbSource;
+    }
+
     public Long getPid() {
         return pid;
     }

@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
-@FeignClient(value = "microservice-product")
+@FeignClient(value = "microservice-product", fallback = ProductClientServiceFallBack.class)
+
 public interface ProductClientService {
 
 
